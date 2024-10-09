@@ -1,5 +1,3 @@
-
-
 #Use the capitalize() method to capitalize the first letter of the string
 string1 = "python"
 print(string1.capitalize())
