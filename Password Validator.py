@@ -59,5 +59,5 @@ def main():
                 print("Passwords do not match. Please try again.")
         except ValueError:
             print("Value Error")
-        
+#call the main function       
 main()
