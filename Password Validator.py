@@ -44,17 +44,18 @@ def main():
     while True:
         #use try and except statements
         try:
-            # Ask the user to enter a password
+            #ask the user to enter a password
             password = input("Enter a password: ")
-            # Validate the password
+            #validate the password
             if password_requirements(password):
                 print("Password meets all criteria.")
-                # Ask for confirmation
+                #ask for confirmation
                 confirm_password = input("Confirm your password: ")
-            # Check if the passwords match
+            #check if the passwords match
             if password == confirm_password:
                 print("Success! Passwords match.")
-                break  # Exit the loop if all checks pass
+                #exit the loop if all checks pass
+                break
             else:
                 print("Passwords do not match. Please try again.")
         except ValueError:
