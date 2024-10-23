@@ -18,4 +18,5 @@ def main():
     print("Sorted list of book titles: ")
     for book in sorted_list:
         print(book)
+#call the function
 main()
