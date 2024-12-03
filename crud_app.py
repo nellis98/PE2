@@ -62,7 +62,7 @@ def create():
     phone = input("Please enter the customer\'s phone: ")
     email = input("Please enter the customer\'s email: ")
     #save the input as an entry
-    entry = f"{fname}, {lname}, {phone}, {email}\\n"
+    entry = f"{fname}, {lname}, {phone}, {email}\n"
     #add the entry to the file
     customer.append(entry)
     #save the file
